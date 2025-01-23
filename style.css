@@ -11,6 +11,7 @@ html,body{
 body{
     background-color: #111;
     color: aliceblue;
+    overflow-x: hidden;
 }
 /* #box{
     margin-top: 10px;
@@ -52,7 +53,7 @@ body{
 #page1{
     height: 100%;
     width: 100%;
-    background-color: lightblue;
+    background-color: rgba(0, 0, 0, 0.759);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,11 +61,12 @@ body{
 #page2{
     height: 100%;
     width: 100%;
-    background-color: rgb(113, 176, 197);
-    display: flex;
+    background-color: rgb(8, 8, 8);
+    padding: 5vw ;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 #page3{
     height: 100%;
@@ -80,18 +82,26 @@ body{
     background-color: rgb(171, 233, 109);
 }
 #page2 h1{
-   color: rgba(0, 0, 0, 0.93);
-   position: relative;
-   font-size: 65px;
-   background-color: rgba(203, 223, 239, 0.914);
-   padding: 15px;
+    padding: 10px 10px;
+   color: rgba(172, 235, 247, 0.93);
+   font-size: 30vw; 
+   text-transform: uppercase;
+   font-weight: 700;
+   
+
 }
-#page2 h2{
+/* #page2 h2{
    color: rgba(0, 0, 0, 0.828);
    position: relative;
    font-size: 45px;
    background-color: rgba(196, 228, 255, 0.925);
    padding: 15px;
    margin-top: 15px;
-}
+} */
 
+#string{
+    height:400px;
+    width: 100%;
+    background-color: #030303;
+    
+}
